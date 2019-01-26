@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0;
     border: 10px solid  #192b36;
@@ -17,4 +18,25 @@ img#responsive{
     img#responsive{
         display: block;
     }
+=======
+body{
+    margin: 0;
+    border: 10px solid  #192b36;
+}
+img{
+    max-width: 100%;
+    vertical-align: top;
+    
+}
+
+img#responsive{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+
+    img#responsive{
+        display: block;
+    }
+>>>>>>> origin/master
 }
